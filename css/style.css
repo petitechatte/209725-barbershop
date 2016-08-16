@@ -24,6 +24,8 @@ h2 {
 }
 
 .main-header {
+  margin-bottom: 60px;
+
   outline: 3px solid green;
 }
 
@@ -49,4 +51,32 @@ h2 {
 
   min-height: 70px;
   outline: 3px solid yellow;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+
+  outline: 3px solid yellow;
+  background-color: yellow;
+}
+
+.features {
+  outline: 3px solid yellow;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  min-height: 175px;
+  outline: 3px solid blue;
+}
+
+.features-item:last-child {
+  margin-right: 0;
 }
