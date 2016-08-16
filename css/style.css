@@ -65,6 +65,8 @@ h2 {
 }
 
 .features {
+  margin-bottom: 80px;
+
   outline: 3px solid yellow;
 }
 
@@ -79,4 +81,27 @@ h2 {
 
 .features-item:last-child {
   margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+
+  outline: 3px solid yellow;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+
+  min-height: 330px;
+  outline: 3px solid blue;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+
+  min-height: 330px;
+  outline: 3px solid blue;
 }
