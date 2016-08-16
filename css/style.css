@@ -5,9 +5,6 @@ body {
   font-weight: bold;
   font-family: "PT Sans Narrow", sans-serif;
   text-transform: uppercase;
-  /* background-image: url(https://up.htmlacademy.ru/static/img/intensive/htmlcss/task-preview/barbershop-shop-1000.jpg);
-  background-size: 1200px auto;
-  background-repeat: no-repeat; */
 }
 
 h1 {
@@ -202,4 +199,42 @@ aside.filter {
 
 .pagination {
   margin-bottom: 20px;
+}
+
+.item-gallery {
+  float: left;
+  width: 460px;
+
+  outline: 3px solid yellow;
+}
+
+.item-information {
+  float: right;
+  width: 390px;
+  padding-left: 10px;
+
+  outline: 3px solid yellow;
+}
+
+.item-large-photo {
+  margin-bottom: 20px;
+
+  outline: 3px solid blue;
+}
+
+.item-gallery-previews {
+
+  font-size: 0;
+
+
+}
+
+.item-preview {
+  display: inline-block;
+
+  outline: 3px solid blue;
+}
+
+.item-preview:nth-child(2) {
+  margin: 0 20px;
 }
