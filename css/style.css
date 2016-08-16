@@ -16,3 +16,37 @@ h2 {
   font-size: 24px;
   line-height: 30px;
 }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  outline: 3px solid green;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 19px;
+
+  outline: 3px solid red;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+
+  min-height: 70px;
+  outline: 3px solid yellow;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+
+  min-height: 70px;
+  outline: 3px solid yellow;
+}
