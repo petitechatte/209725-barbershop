@@ -34,6 +34,7 @@ figure {
 }
 
 .container {
+  display: block; /* для IE10 */
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
