@@ -13,6 +13,8 @@ body {
   font-weight: bold;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
+
+  background: #000000 url("img/index-background.jpg") no-repeat center top;
 }
 
 h1 {
@@ -26,7 +28,7 @@ h2 {
 }
 
 .clearfix::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
