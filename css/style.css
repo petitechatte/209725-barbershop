@@ -120,9 +120,15 @@ img {
   left: 20px;
 
   width: 18px;
-  height: 18px;
+  height: 16px;
 
-  background: #ff0000;
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -5px -59px;
+  opacity: 0.3;
+}
+
+.login:hover::before {
+  opacity: 1;
 }
 
 /* логотип на главной */
@@ -376,4 +382,60 @@ aside.filter {
   margin-top: 65px;
 
   outline: 3px solid blue;
+}
+
+/* сгенерированные стили спрайта */
+
+.sprite {
+    background-image: url("../img/sprite");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-checkbox-cross {
+    width: 12px;
+    height: 12px;
+    background-position: -5px -5px;
+}
+
+.sprite-fb {
+    width: 12px;
+    height: 22px;
+    background-position: -5px -27px;
+}
+
+.sprite-icon-login {
+    width: 18px;
+    height: 16px;
+    background-position: -5px -59px;
+}
+
+.sprite-instagram {
+    width: 21px;
+    height: 21px;
+    background-position: -5px -85px;
+}
+
+.sprite-locked {
+    width: 15px;
+    height: 17px;
+    background-position: -5px -116px;
+}
+
+.sprite-user {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -143px;
+}
+
+.sprite-vk {
+    width: 25px;
+    height: 16px;
+    background-position: -5px -168px;
+}
+
+.sprite-window-cross {
+    width: 21px;
+    height: 21px;
+    background-position: -5px -194px;
 }
