@@ -14,7 +14,7 @@ body {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 
-  background: #000000 url("img/index-background.jpg") no-repeat center top;
+  background: #000000 url("../img/index-background.jpg") no-repeat center top;
 }
 
 h1 {
