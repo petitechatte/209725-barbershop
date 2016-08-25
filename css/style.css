@@ -128,12 +128,13 @@ img {
 .index-logo {
   width: 368px;
   height: 204px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   margin-bottom: 25px;
+}
 
-  outline: 3px solid yellow;
-  background-color: yellow;
+.index-logo img {
+  width: 368px;
+  height: 204px;
 }
 
 .features {
