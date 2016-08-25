@@ -194,22 +194,23 @@ img {
   transform: rotate(45deg);
 }
 
+/* блоки содержания главной */
+
 .index-content {
   margin-bottom: 35px;
   padding: 50px 80px;
 
-  outline: 3px solid yellow;
-}
+  color: #000000;
 
-.index-content:last-child {
-  margin-bottom: 65px;
+  background:
+    url("../img/vertical-line.png") no-repeat center,
+    #f8f5f2 url("../img/white-pattern.jpg");
 }
 
 .index-content-left {
   float: left;
   width: 380px;
 
-  min-height: 330px;
   outline: 3px solid blue;
 }
 
@@ -217,7 +218,6 @@ img {
   float: right;
   width: 300px;
 
-  min-height: 330px;
   outline: 3px solid blue;
 }
 
