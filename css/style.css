@@ -221,6 +221,13 @@ img {
   outline: 3px solid blue;
 }
 
+.index-content-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* футер */
+
 .main-footer {
   margin-top: 50px;
   padding-top: 60px;
