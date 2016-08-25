@@ -92,10 +92,37 @@ img {
 
 .user-block {
   float: right;
-  width: 140px;
+  max-width: 140px;
+}
 
-  min-height: 70px;
-  outline: 3px solid yellow;
+.login {
+  position: relative;
+
+  display: inline-block;
+  padding: 25px 20px;
+  padding-left: 50px;
+
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: #242424;
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 20px;
+
+  width: 18px;
+  height: 18px;
+
+  background: #ff0000;
 }
 
 .index-logo {
