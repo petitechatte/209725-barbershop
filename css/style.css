@@ -210,15 +210,11 @@ img {
 .index-content-left {
   float: left;
   width: 380px;
-
-  outline: 3px solid blue;
 }
 
 .index-content-right {
   float: right;
   width: 300px;
-
-  outline: 3px solid blue;
 }
 
 .index-content-title {
@@ -330,6 +326,37 @@ img {
 
 .gallery-next {
   right: 0;
+}
+
+/* форма записи */
+
+.appointment-form input {
+  float: left;
+  width: 106px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 7px 15px;
+
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+  outline: none;
+}
+
+.appointment-form input:focus {
+  border: 2px solid #663d15;
+}
+
+.appointment-form input:nth-child(2n) {
+  margin-right: 0;
+}
+
+.appointment-form .btn {
+  clear: both;
+  width: 100%;
 }
 
 /* футер */
