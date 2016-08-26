@@ -423,6 +423,10 @@ img {
   background: #000000 url("../img/sprite.png") no-repeat center;
 }
 
+.social-btn:hover {
+  background-color: #ffffff;
+}
+
 .social-btn-vk {
   background-position: -7px -388px;
 }
@@ -433,6 +437,18 @@ img {
 
 .social-btn-inst {
    background-position: -4px -197px;
+}
+
+.social-btn-vk:hover {
+  background-position: -7px -435px;
+}
+
+.social-btn-fb:hover {
+  background-position: 0px -100px;
+}
+
+.social-btn-inst:hover {
+  background-position: -4px -250px;
 }
 
 /* внутренние страницы */
