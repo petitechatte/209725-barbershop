@@ -123,7 +123,7 @@ img {
   height: 16px;
 
   background: transparent url("../img/sprite.png") no-repeat;
-  background-position: -5px -59px;
+  background-position: -15px -161px;
   opacity: 0.3;
 }
 
@@ -362,11 +362,13 @@ img {
 /* футер */
 
 .main-footer {
-  margin-top: 50px;
+  margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
 
-  outline: 3px solid green;
+  color: #ffffff;
+
+  background: #252525 url("../img/footer-pattern.jpg");
 }
 
 .footer-contacts {
@@ -374,13 +376,22 @@ img {
   width: 320px;
   margin-right: 60px;
 
-  min-height: 90px;
   outline: 3px solid yellow;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+}
+
+.footer-contacts a:hover {
+  text-decoration: none;
 }
 
 .footer-social {
   float: left;
   width: 180px;
+
+  text-align: center;
 
   min-height: 90px;
   outline: 3px solid yellow;
@@ -393,6 +404,38 @@ img {
   min-height: 90px;
   outline: 3px solid yellow;
 }
+
+.footer-social p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  margin: 0 2px;
+
+  font-size: 0;
+  vertical-align: top;
+  text-decoration: none;
+
+  background: #000000 url("../img/sprite.png") no-repeat center;
+}
+
+.social-btn-vk {
+  background-position: -7px -388px;
+}
+
+.social-btn-fb {
+  background-position: 0px -47px;
+}
+
+.social-btn-inst {
+   background-position: -4px -197px;
+}
+
+/* внутренние страницы */
 
 .content-header {
   margin-bottom: 47px;
@@ -527,7 +570,7 @@ aside.filter {
 /* сгенерированные стили спрайта */
 
 .sprite {
-    background-image: url("../img/sprite");
+    background-image: url(spritesheet.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -535,47 +578,66 @@ aside.filter {
 .sprite-checkbox-cross {
     width: 12px;
     height: 12px;
-    background-position: -5px -5px;
+    background-position: -15px -15px;
 }
 
 .sprite-fb {
     width: 12px;
     height: 22px;
-    background-position: -5px -27px;
+    background-position: -15px -57px;
+}
+
+.sprite-fb-hover {
+    width: 12px;
+    height: 22px;
+    background-position: -15px -109px;
 }
 
 .sprite-icon-login {
     width: 18px;
     height: 16px;
-    background-position: -5px -59px;
+    background-position: -15px -161px;
 }
 
 .sprite-instagram {
     width: 21px;
     height: 21px;
-    background-position: -5px -85px;
+    background-position: -15px -207px;
+}
+
+.sprite-instagram-hover {
+    width: 21px;
+    height: 21px;
+    background-position: -15px -258px;
 }
 
 .sprite-locked {
     width: 15px;
     height: 17px;
-    background-position: -5px -116px;
+    background-position: -15px -309px;
 }
 
 .sprite-user {
     width: 15px;
     height: 15px;
-    background-position: -5px -143px;
+    background-position: -15px -356px;
 }
 
 .sprite-vk {
     width: 25px;
     height: 16px;
-    background-position: -5px -168px;
+    background-position: -15px -401px;
+}
+
+.sprite-vk-hover {
+    width: 25px;
+    height: 16px;
+    background-position: -15px -447px;
 }
 
 .sprite-window-cross {
     width: 21px;
     height: 21px;
-    background-position: -5px -194px;
+    background-position: -15px -493px;
 }
+
