@@ -466,6 +466,13 @@ img {
 
 /* внутренние страницы */
 
+.main-navigation .logo-inner {
+  float: left;
+  width: 111px;
+  height: 20px;
+  padding-top: 22px;
+}
+
 .content-header {
   margin-bottom: 47px;
 
