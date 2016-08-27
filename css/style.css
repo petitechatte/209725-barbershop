@@ -464,14 +464,47 @@ img {
   background-color: #ffffff;
 }
 
-/* внутренние страницы */
+/* шапка внутренних страниц */
 
 .main-navigation .logo-inner {
   float: left;
   width: 111px;
-  height: 20px;
+  height: 24px;
   padding-top: 22px;
 }
+
+.main-navigation .logo-inner img {
+  width: 111px;
+  height: 24px;
+}
+
+.main-navigation .logo-inner:hover {
+  background: none;
+}
+
+.main-navigation .active {
+  position: relative;
+
+  background-color: none;
+}
+
+.main-navigation .active::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+
+  height: 5px;
+
+  background-color: #ffffff;
+}
+
+.main-navigation .active a:hover {
+  background: none;
+}
+
+/* содержание внутренних страниц */
 
 .content-header {
   margin-bottom: 47px;
