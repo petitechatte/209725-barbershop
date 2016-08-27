@@ -567,6 +567,15 @@ img {
   text-decoration: underline;
 }
 
+/* футер внутренних страниц */
+
+.inner-page .main-footer {
+  margin-top: 50px;
+
+  background:  #252525 url("../img/footer-pattern.jpg");
+  box-shadow: inset #000000 0 20px 35px;
+}
+
 aside.filter {
   float: left;
   width: 220px;
