@@ -466,6 +466,10 @@ img {
 
 /* шапка внутренних страниц */
 
+.inner-page .main-header {
+  margin-bottom: 55px;
+}
+
 .main-navigation .logo-inner {
   float: left;
   width: 111px;
@@ -513,10 +517,54 @@ img {
 }
 
 .content-header {
-  margin-bottom: 47px;
+  margin-bottom: 55px;
+}
 
-  min-height: 65px;
-  outline: 3px solid yellow;
+.content-header h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  color: #aba9a7;
+}
+
+.breadcrumbs li {
+  position: relative;
+
+  display: inline;
+  padding-right: 40px;
+}
+
+.breadcrumbs li::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 18px;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.breadcrumbs li:last-child::after {
+  display: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
 }
 
 aside.filter {
