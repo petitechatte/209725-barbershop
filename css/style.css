@@ -375,8 +375,6 @@ img {
   float: left;
   width: 320px;
   margin-right: 60px;
-
-  outline: 3px solid yellow;
 }
 
 .footer-contacts a {
@@ -392,17 +390,11 @@ img {
   width: 180px;
 
   text-align: center;
-
-  min-height: 90px;
-  outline: 3px solid yellow;
 }
 
 .footer-copyright {
   float: right;
-  width: 180px;
-
-  min-height: 90px;
-  outline: 3px solid yellow;
+  max-width: 180px;
 }
 
 .footer-social p {
@@ -421,6 +413,10 @@ img {
   text-decoration: none;
 
   background: #000000 url("../img/sprite.png") no-repeat center;
+
+  transition:
+    background-position 0.5s,
+    background-color 0.5s;
 }
 
 .social-btn:hover {
@@ -449,6 +445,23 @@ img {
 
 .social-btn-inst:hover {
   background-position: -4px -250px;
+}
+
+.footer-copyright p {
+  margin: 0;
+  margin-bottom: 15px;
+
+  text-align: center;
+}
+
+.footer-copyright .btn {
+  margin-right: 0;
+}
+
+.footer-copyright .btn:hover {
+  color: #000000;
+
+  background-color: #ffffff;
 }
 
 /* внутренние страницы */
