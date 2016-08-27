@@ -506,6 +506,12 @@ img {
 
 /* содержание внутренних страниц */
 
+.inner-page {
+  color: #000000;
+
+  background: #f8f3f0 url("../img/white-pattern.jpg");
+}
+
 .content-header {
   margin-bottom: 47px;
 
