@@ -686,6 +686,10 @@ img {
   text-align: center;
 }
 
+.short-text {
+  padding-right: 80px;
+}
+
 /* колонки для контента */
 
 .inner-columns {
