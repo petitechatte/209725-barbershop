@@ -508,7 +508,7 @@ img {
   background: none;
 }
 
-/* содержание внутренних страниц */
+/* заголовок внутренних страниц */
 
 .inner-page {
   color: #000000;
@@ -606,6 +606,23 @@ img {
 .inner-content table {
   border-collapse: collapse;
 }
+
+.inner-content td {
+  padding: 10px 15px;
+
+  border: 2px solid #000000;
+}
+
+/* особые стили для контентных тегов */
+
+.big-heading {
+  margin-top: 55px;
+  margin-bottom: 65px;
+
+  text-align: center;
+}
+
+/* каталог */
 
 aside.filter {
   float: left;
