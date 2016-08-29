@@ -674,6 +674,18 @@ img {
   transform: rotate(45deg);
 }
 
+.prices-table {
+  width: 100%;
+}
+
+.prices-table td {
+  width: 50%;
+}
+
+.prices-table td:last-child {
+  text-align: center;
+}
+
 /* каталог */
 
 aside.filter {
