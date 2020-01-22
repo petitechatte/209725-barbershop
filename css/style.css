@@ -137,18 +137,20 @@ img {
   width: 368px;
   height: 204px;
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
 }
 
 .index-logo img {
+  display: block;
   width: 368px;
   height: 204px;
+  margin-left: 5px; /* для соответствия макету */
 }
 
 /* блок преимуществ */
 
 .features {
-  margin-bottom: 80px;
+  margin-bottom: 76px;
 }
 
 .features-item {
@@ -168,7 +170,7 @@ img {
 
   display: block;
   margin-bottom: 30px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
 
   font-size: 30px;
   line-height: 42px;
@@ -198,7 +200,10 @@ img {
 
 .index-content {
   margin-bottom: 35px;
-  padding: 50px 80px;
+  padding-top: 45px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 50px;
 
   color: #000000;
 
@@ -219,7 +224,7 @@ img {
 
 .index-content-title {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 
   font-size: 30px;
   line-height: 42px;
@@ -241,7 +246,7 @@ img {
 }
 
 .news-preview li {
-  margin-bottom: 25px;
+  margin-bottom: 21px;
 }
 
 .news-preview p {
@@ -289,6 +294,12 @@ img {
 .btn.disabled:hover,
 .btn:disabled:hover {
   background-color: #000000;
+}
+
+/* кнопка в новостях */
+
+.news-preview + .btn {
+  margin-top: 7px;
 }
 
 /* галерея */
