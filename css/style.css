@@ -672,7 +672,7 @@ img {
 /* шапка внутренних страниц */
 
 .inner-page .main-header {
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .main-navigation .logo-inner {
@@ -682,13 +682,13 @@ img {
   padding-top: 22px;
 }
 
+.main-navigation .logo-inner:hover {
+  background-color: #242424;
+}
+
 .main-navigation .logo-inner img {
   width: 111px;
   height: 24px;
-}
-
-.main-navigation .logo-inner:hover {
-  background: none;
 }
 
 .main-navigation .active {
