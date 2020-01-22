@@ -727,7 +727,7 @@ img {
 
 .content-header h1 {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 0;
 }
 
@@ -743,13 +743,13 @@ img {
   position: relative;
 
   display: inline;
-  padding-right: 40px;
+  padding-right: 39px;
 }
 
 .breadcrumbs li::after {
   content: "";
   position: absolute;
-  top: 4px;
+  top: 5px;
   right: 18px;
 
   width: 8px;
