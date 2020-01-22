@@ -722,7 +722,7 @@ img {
 }
 
 .content-header {
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
 
 .content-header h1 {
@@ -930,8 +930,6 @@ img {
 aside.filter {
   float: left;
   width: 220px;
-
-  outline: 3px solid yellow;
 }
 
 .catalog-items,
@@ -940,16 +938,12 @@ aside.filter {
   width: 700px;
   margin: 0;
   padding: 0;
-
-  outline: 3px solid yellow;
 }
 
 .filter fieldset {
   padding: 0;
-  padding-top: 10px;
 
   border: none;
-  outline: 3px solid blue;
 }
 
 .filter legend {
@@ -959,20 +953,27 @@ aside.filter {
 }
 
 .filter ul {
-  margin-top: 35px;
+  margin: 0;
+  margin-top: 32px;
   margin-bottom: 50px;
+  padding: 0;
 
   line-height: 18px;
 
   list-style: none;
-  outline: 3px solid red;
 }
 
 .filter li {
   position: relative;
 
-  margin-bottom: 25px;
-  padding-left: 40px;
+  margin: 0;
+  margin-bottom: 19px;
+  padding: 0;
+  padding-left: 25px;
+}
+
+.filter .btn-filter {
+  width: 110px;
 }
 
 .catalog-items {
