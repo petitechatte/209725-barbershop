@@ -994,22 +994,41 @@ aside.filter {
   margin-bottom: 35px;
 }
 
-.catalog-items article {
+.catalog-item {
   display: inline-block;
   width: 220px;
   margin: 10px;
   vertical-align: top;
   font-size: 14px;
+  line-height: 18px;
 
   outline: 3px solid blue;
 }
 
-.catalog-items article:nth-child(3n+1) {
+.catalog-item:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.catalog-items article:nth-child(3n) {
+.catalog-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.catalog-item figcaption {
+  padding: 15px;
+  padding-top: 10px;
+}
+
+.catalog-item .item-photo {
+  display: block; /* избавляемся от нижнего паддинга в ссылке */
+}
+
+.catalog-item .item-type,
+.catalog-item .item-title {
+  display: block;
+}
+
+.catalog-item .item-type {
+  text-transform: none;
 }
 
 .pagination {
